@@ -1,0 +1,81 @@
+Questions: 
+What are some ways in which Computer Science can help fight against COVID-19? 
+
+In the article, Bowman and his fellow scientists have created a software that enables them to 
+essentially borrow computer power from others. This is mainly through the power of computer science. 
+Without computer science, they would not have been able to study COVID’s spike proteins, as the 
+simulations take up so much computer power. Another way that Computer Science has helped the fight 
+against COVID-19 is the ability/possibility to actually create the simulations. Not only is the software 
+for sharing power important, but the very program that they are trying to fuel. 
+
+In your opinion, should people enable access to the resources of their personal computers as tools 
+for research? Are there any risks?
+
+In my opinion, trusting anyone with my personal devices would cause me to be a little bit skeptical. 
+Mainly because my computer probably knows me better than I know me. But on the other hand, so much of 
+our personal data is already being sold/traded by large organisations like Google and Apple, so it shouldn’t 
+really matter to me. In the end, I’d most likely give up my computer’s power to help fight the COVID-19  
+Fight because I don’t really have any information to lose anymore. And I would be doing it for a good cause. 
+
+Task 1: 
+# definition of variables 
+x = [300, 200, 250, 400, 350, 150, 100, 50, 25, 450] # a list, which is a collection of values
+y = [300, 200, 250, 400, 350, 150, 100, 50, 25, 450]
+
+def setup():
+    size(500, 500)
+
+def draw():
+    global x, y
+    background(255)
+    strokeWeight(2)
+
+    # create 1st individual 
+    for i in range(10):
+        circle(x[i], y[i], 40)
+        x[i] = x[i] + random(-10, 10)
+        y[i] = y[i] + random(-10, 10)
+        
+        # boundaries conditions
+        if x[0] > 500:
+            x[0] = 500
+        if y[0] > 500:
+            y[0] = 500
+        if x[0] < 500: 
+            x[0] = 500
+        if y[0] < 500:
+            y[0] = 500
+        # add three more conditions 
+
+
+    
+    delay(100)   
+
+Task 2: 
+# definition of variables 
+x = [300, 200, 250, 400, 350, 150, 100, 50, 25, 450] # a list, which is a collection of values
+y = [300, 200, 250, 400, 350, 150, 100, 50, 25, 450]
+
+def setup():
+    size(500, 500)
+
+def draw():
+    global x, y
+    background(255)
+    strokeWeight(2)
+
+    # create 1st individual 
+    for i in range(10):
+        circle(x[i], y[i], 40)
+        x[i] = x[i] + random(-10, 10)
+        y[i] = y[i] + random(-10, 10)
+        
+        # boundaries conditions
+        if x[0] > 500:
+            x[0] = 500
+        if 
+        # add three more conditions 
+
+
+    
+    delay(100)   
